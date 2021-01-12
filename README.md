@@ -2,7 +2,7 @@
 
 This is my Professional Portfolio Application.
 
-Technologies used:
+**Technologies used:**
 
-Ruby: 3.0
-Rails: 6.1
+_Ruby:_ 3.0
+_Rails:_ 6.1

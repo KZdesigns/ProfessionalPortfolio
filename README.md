@@ -19,5 +19,5 @@ end
 
 ### Technologies used:
 
--Ruby: 3.0
--Rails: 6.1
+- _Ruby: 3.0_
+- _Rails: 6.1_

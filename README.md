@@ -17,7 +17,7 @@ def my_example_method
 end
 ```
 
-**Technologies used:**
+### Technologies used:
 
 -_Ruby:_ 3.0
 -_Rails:_ 6.1

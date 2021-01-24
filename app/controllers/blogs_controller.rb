@@ -4,7 +4,7 @@ class BlogsController < ApplicationController
   # GET /blogs
   def index
     @blogs = Blog.all
-    
+
   end
 
   # GET /blogs/1
@@ -55,7 +55,7 @@ class BlogsController < ApplicationController
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_blog
-      @blog = Blog.find(params[:id])
+      @blog = Blog.friendly.find(params[:id])
     end
 
     # Only allow a list of trusted parameters through.

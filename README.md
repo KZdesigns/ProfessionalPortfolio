@@ -17,6 +17,16 @@ def my_example_method
 end
 ```
 
+### Gems Used
+
+```Ruby
+gem 'friendly_id', '~> 5.4.0'
+````
+### Gem Repos
+
+- FriendlyId: https://github.com/norman/friendly_id
+
+
 ### Technologies used:
 
 - _Ruby: 3.0_

@@ -12,8 +12,16 @@
 ### Code Example
 
 ```Ruby
-def my_example_method
-  puts "example"
+# custom action
+def toggle_status
+# conditional for switching between published and draft state for blog posts
+  if @blog.draft?
+    @blog.published!
+  elsif @blog.published?
+    @blog.draft!
+  end
+# redirect the back to blog index page after setting state
+  redirect_to blogs_url, notice: 'Blog status was successfully updated.'
 end
 ```
 

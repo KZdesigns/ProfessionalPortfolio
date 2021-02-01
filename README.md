@@ -32,7 +32,7 @@ gem 'friendly_id', '~> 5.4.0'
 ````
 ### Gem Repos
 
-- FriendlyId: https://github.com/norman/friendly_id
+>- FriendlyId: https://github.com/norman/friendly_id
 
 
 ### Technologies used:
